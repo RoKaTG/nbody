@@ -1,4 +1,4 @@
-CC=clang
+CC=gcc
 OFLAGS=-O3
 CFLAGS=-march=native -g3
 LFLAGS=-fopenmp -mfma -mavx2
