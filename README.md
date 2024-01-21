@@ -100,5 +100,3 @@ This script generates plots for N-body simulations using Gnuplot and saves them 
 - chmod +x plot.sh
 - ./plot.sh
 
-Make sure to customize the scripts and Makefile as needed for your specific project and compiler configurations.
-
