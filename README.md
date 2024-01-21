@@ -88,17 +88,17 @@ Two scripts are provided in the `scripts/` directory to automate benchmarking an
 This script compiles and runs N-body simulations with different optimization levels and saves the results in the `results/` directory.
 
 - **Usage**:
-cd scripts/
-chmod +x data.sh
-./data.sh
+- cd scripts/
+- chmod +x data.sh
+- ./data.sh
 
 ### Plot Generation Script (plot.sh)
 This script generates plots for N-body simulations using Gnuplot and saves them in the `results/perf_plot/` directory.
 
 - **Usage**:
-cd scripts/
-chmod +x plot.sh
-./plot.sh
+- cd scripts/
+- chmod +x plot.sh
+- ./plot.sh
 
 Make sure to customize the scripts and Makefile as needed for your specific project and compiler configurations.
 
