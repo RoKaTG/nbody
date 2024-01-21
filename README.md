@@ -5,57 +5,57 @@ This README provides instructions on how to use the provided scripts, compile th
 
 ## Directory Structure
 The project directory is organized as follows:
-project/
-│
-├── Makefile
-├── nbody/
-│ ├── nbody1.c
-│ ├── nbody2.c
-│ ├── nbody3.c
-│ ├── nbody4.c
-│ ├── nbody5.c
-│ ├── nbody6.c
-│ ├── nbody7.c
-│ ├── nbody8.c
-│ └── nbody.c
-│
-├── particle_references/
-│ └── particle_positions.dat
-│
-├── plot_gen/
-│ ├── plot_nbody0.gp
-│ ├── plot_nbody1.gp
-│ ├── plot_nbody2.gp
-│ ├── plot_nbody3.gp
-│ ├── plot_nbody4.gp
-│ ├── plot_nbody5.gp
-│ ├── plot_nbody6.gp
-│ ├── plot_nbody7.gp
-│ └── plot_nbody8.gp
-│
-├── results/
-│ ├── perf_plot/
-│ │ └── nbody*.png
-│ │
-│ ├── result_clang/
-│ │ ├── O1/
-│ │ ├── O2/
-│ │ ├── O3/
-│ │ └── OFast/
-│ │
-│ ├── result_gcc/
-│ │ ├── O1/
-│ │ ├── O2/
-│ │ ├── O3/
-│ │ └── OFast/
-│ │
-│ └── simplified_data/
-│ ├── clang/
-│ └── gcc/
-│
-└── scripts/
-├── data.sh
-└── plot.sh
+- project/
+- │
+- ├── Makefile
+- ├── nbody/
+- │ ├── nbody1.c
+- │ ├── nbody2.c
+- │ ├── nbody3.c
+- │ ├── nbody4.c
+- │ ├── nbody5.c
+- │ ├── nbody6.c
+- │ ├── nbody7.c
+- │ ├── nbody8.c
+- │ └── nbody.c
+- │
+- ├── particle_references/
+- │ └── particle_positions.dat
+- │
+- ├── plot_gen/
+- │ ├── plot_nbody0.gp
+- │ ├── plot_nbody1.gp
+- │ ├── plot_nbody2.gp
+- │ ├── plot_nbody3.gp
+- │ ├── plot_nbody4.gp
+- │ ├── plot_nbody5.gp
+- │ ├── plot_nbody6.gp
+- │ ├── plot_nbody7.gp
+- │ └── plot_nbody8.gp
+- │
+- ├── results/
+- │ ├── perf_plot/
+- │ │ └── nbody*.png
+- │ │
+- │ ├── result_clang/
+- │ │ ├── O1/
+- │ │ ├── O2/
+- │ │ ├── O3/
+- │ │ └── OFast/
+- │ │
+- │ ├── result_gcc/
+- │ │ ├── O1/
+- │ │ ├── O2/
+- │ │ ├── O3/
+- │ │ └── OFast/
+- │ │
+- │ └── simplified_data/
+- │ ├── clang/
+- │ └── gcc/
+- │
+- └── scripts/
+- ├── data.sh
+- └── plot.sh
 
 
 - **nbody/**: Contains source code files for N-body simulation.
