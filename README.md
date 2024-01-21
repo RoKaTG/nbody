@@ -70,7 +70,7 @@ To compile the project, you can use the provided `Makefile`. The Makefile is con
 ### Compilation Commands
 
 - **To compile all N-body simulations**:
-make all
+make all CC= GCC or CLANG OFLAGS:-OX
 
 - **To clean up compiled files**:
 make clean
