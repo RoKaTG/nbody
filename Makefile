@@ -1,11 +1,9 @@
-CC=gcc
-OFLAGS=-O3
 CFLAGS=-march=native -g3
 LFLAGS=-fopenmp -mfma -mavx2
 SRC_DIR=nbody
 
 
-all: nbody0 nbody1 nbody2 nbody3 nbody4 nbody5 nbody6 nbody7 nbody8 #nbody9
+all: nbody0 nbody1 nbody2 nbody3 nbody4 nbody5 nbody6 nbody7 nbody8
 
 nbody0: $(SRC_DIR)/nbody.c
 	$(CC) $(CFLAGS) $(OFLAGS) $(LFLAGS) $< -o $@ -lm
@@ -34,11 +32,8 @@ nbody7: $(SRC_DIR)/nbody7.c
 nbody8: $(SRC_DIR)/nbody8.c
 	$(CC) $(CFLAGS) $(OFLAGS) $(LFLAGS) $< -o $@ -lm
 
-#nbody9: $(SRC_DIR)/nbody9.c
-#	$(CC) $(CFLAGS) $(OFLAGS) $(LFLAGS) $< -o $@ -lm
-
 clean:
-	rm -Rf *~ nbody0 nbody1 nbody2 nbody3 nbody4 nbody5 nbody6 nbody7 nbody8 nbody9 *.optrpt
+	rm -Rf *~ nbody0 nbody1 nbody2 nbody3 nbody4 nbody5 nbody6 nbody7 nbody8 *.optrpt
 
 result_del:
 	cd results/result_gcc/O1 && rm -Rf *~ *.dat

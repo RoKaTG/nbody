@@ -174,7 +174,7 @@ int main(int argc, char **argv)
     }
     fclose(file);
   } else {
-    fprintf(stderr, "Erreur à l'ouverture du fichier\n");
+    fprintf(stderr, "File not found\n");
   }
 
     

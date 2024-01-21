@@ -1,0 +1,5 @@
+Flags       GFLOP/s
+O1          356.8
+O2          353.6
+O3          361.5
+Ofast       332.4
